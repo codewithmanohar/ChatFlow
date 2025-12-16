@@ -1,8 +1,7 @@
-import { config } from "dotenv";
-// import { connectDB } from "../Config/config.js";
+import dotenv from "dotenv";
 import connectDB from "../Config/config.js"
 import userModel from "../Models/user-models.js";
-config();
+dotenv.config();
 
 const seedUsers = [
   // Female Users
@@ -99,6 +98,8 @@ const seedUsers = [
     profilePic: "https://randomuser.me/api/portraits/men/7.jpg",
   },
 ];
+
+console.log("Mongo URI:", process.env.MONGODB_URI);
 
 const seedDatabase = async () => {
   try {
