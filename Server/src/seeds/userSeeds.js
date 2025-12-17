@@ -4,7 +4,6 @@ import userModel from "../Models/user-models.js";
 dotenv.config();
 
 const seedUsers = [
-  // Female Users
   {
     email: "emma.thompson@example.com",
     fullname: "Emma Thompson",
@@ -54,7 +53,7 @@ const seedUsers = [
     profilePic: "https://randomuser.me/api/portraits/women/8.jpg",
   },
 
-  // Male Users
+
   {
     email: "james.anderson@example.com",
     fullname: "James Anderson",

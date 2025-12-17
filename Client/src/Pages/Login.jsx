@@ -4,6 +4,7 @@ import { useAuthStore } from '../Store/useAuthStore';
 import { Eye, EyeOff, Loader2, Lock, Mail, MessageSquare } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import AuthImagePattern from '../Components/AuthImagePattern';
+import logo from "../../public/chatflow.webp"
 
 const Login = () => {
   const [showPassword , setShowPassword ] = useState(false);
@@ -31,8 +32,8 @@ const Login = () => {
               <div
                 className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20
               transition-colors"
-              >
-                <MessageSquare className="w-6 h-6 text-primary" />
+              > 
+                <img src={logo} alt="logo" className='w-8 h-8 '/>
               </div>
               <h1 className="text-2xl font-bold mt-2">Welcome Back</h1>
               <p className="text-base-content/60">Sign in to your account</p>

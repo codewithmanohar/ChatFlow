@@ -2,6 +2,7 @@ import React from 'react'
 import { useAuthStore } from '../Store/useAuthStore';
 import { Link } from 'react-router-dom';
 import { LogOut, MessageSquare, Settings, User } from 'lucide-react';
+import logo from "../../public/chatflow.webp"
 
 const Navbar = () => {
       const { authUser , logout } = useAuthStore() ; 
@@ -14,7 +15,8 @@ const Navbar = () => {
           <div className="flex items-center gap-8">
             <Link to="/" className="flex items-center gap-2.5 hover:opacity-80 transition-all">
               <div className="size-9 rounded-lg bg-primary/10 flex items-center justify-center">
-                <MessageSquare className="w-5 h-5 text-primary" />
+                {/* <MessageSquare className="w-5 h-5 text-primary" /> */}
+                <img src={logo} alt="logo" className='w-7 h-7 '/>
               </div>
               <h1 className="text-lg font-bold">Chatflow</h1>
             </Link>
