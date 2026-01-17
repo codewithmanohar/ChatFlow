@@ -20,6 +20,38 @@
 
 ---
 
+---
+
+## 📸 Screenshots
+
+### 🔐 Login Page
+![Login Page](https://raw.githubusercontent.com/codewithmanohar/ChatFlow/main/Client/public/login.webp)
+
+---
+
+### 📝 Signup Page
+![Signup Page](https://raw.githubusercontent.com/codewithmanohar/ChatFlow/main/Client/public/signup.webp)
+
+---
+
+### 💬 Chat Interface
+![Chat Interface](https://raw.githubusercontent.com/codewithmanohar/ChatFlow/main/Client/public/chats.webp)
+
+---
+
+### 👤 User Profile
+![User Profile](https://raw.githubusercontent.com/codewithmanohar/ChatFlow/main/Client/public/profile.webp)
+
+---
+
+### 🎨 Theme Customization
+![Theme Customization](https://raw.githubusercontent.com/codewithmanohar/ChatFlow/main/Client/public/theme.webp)
+
+---
+
+
+---
+
 ## 🛠 Tech Stack
 
 ### Backend
@@ -111,37 +143,7 @@ npm run dev
 
 ---
 
----
 
-## 📸 Screenshots
-
-### 🔐 Login Page
-![Login Page](https://raw.githubusercontent.com/codewithmanohar/ChatFlow/main/Client/public/login.webp)
-
----
-
-### 📝 Signup Page
-![Signup Page](https://raw.githubusercontent.com/codewithmanohar/ChatFlow/main/Client/public/signup.webp)
-
----
-
-### 💬 Chat Interface
-![Chat Interface](https://raw.githubusercontent.com/codewithmanohar/ChatFlow/main/Client/public/chats.webp)
-
----
-
-### 👤 User Profile
-![User Profile](https://raw.githubusercontent.com/codewithmanohar/ChatFlow/main/Client/public/profile.webp)
-
----
-
-### 🎨 Theme Customization
-![Theme Customization](https://raw.githubusercontent.com/codewithmanohar/ChatFlow/main/Client/public/theme.webp)
-
----
-
-
----
 
 ---
 
@@ -199,5 +201,6 @@ Contributions are welcome!
 
 **Manohar Kumar**
 *B.Tech CSE | Full Stack Developer* 
+
 
 GitHub: [@codewithmanohar](https://github.com/codewithmanohar)
